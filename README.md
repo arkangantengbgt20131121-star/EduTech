@@ -31,7 +31,8 @@ npm run dev        # http://localhost:3000
 | `npm run start`     | Serve the production build                              |
 | `npm run lint`      | ESLint (Next core-web-vitals + TypeScript rules)        |
 | `npm run typecheck` | `tsc --noEmit`                                          |
-| `npm run test`      | Both smoke tests below                                  |
+| `npm run test`      | All three checks below                                  |
+| `npm run test:data` | Content integrity: units, quizzes, widgets, search      |
 | `npm run test:python` | 18-case smoke test for the Python interpreter         |
 | `npm run test:microbit` | Drives all 12 simulator programs through the runtime |
 

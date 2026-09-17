@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test:python": "tsx scripts/test-interpreter.ts",
     "test:microbit": "tsx scripts/test-microbit.ts",
-    "test": "npm run test:python && npm run test:microbit"
+    "test": "npm run test:data && npm run test:python && npm run test:microbit",
+    "test:data": "tsx scripts/test-data.ts"
   },
   "dependencies": {
     "@codemirror/lang-html": "^6.4.12",
